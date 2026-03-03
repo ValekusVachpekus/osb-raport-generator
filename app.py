@@ -221,7 +221,7 @@ class RaportApp(tk.Tk):
 
         tk.Label(row_frame, text="Название:", bg="#f0f0f0",
                  font=("Segoe UI", 9)).pack(side="left", padx=(2, 2))
-        name_var = tk.StringVar(value=f"Фото/видео {idx + 1}")
+        name_var = tk.StringVar(value=f"Доказательства №{idx + 1}")
         name_entry = tk.Entry(row_frame, textvariable=name_var, width=22,
                               font=("Segoe UI", 9), relief="solid", bd=1)
         name_entry.pack(side="left", padx=(0, 4))
