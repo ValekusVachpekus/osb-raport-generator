@@ -135,7 +135,7 @@ class RaportApp(tk.Tk):
         _label("Основание рапорта (подробно: дата, суть, ссылки на законы):", 2)
         self.text_basis = _textarea(3, 6)
 
-        _label("Прошу руководство ГАИ:", 4)
+        _label("Прошу руководство ГУ МВД:", 4)
         self.text_request = _textarea(5, 3)
 
         # ── ПРИЛОЖЕНИЯ ─────────────────────────────────────────
@@ -296,7 +296,7 @@ class RaportApp(tk.Tk):
         # ── BB-код ───────────────────────────────────────────────
         bb = (
             f"[RIGHT][SIZE=15px][FONT=Times New Roman]"
-            f"Руководству ГАИ по Нижегородской области"
+            f"Руководству ГУ МВД по Нижегородской области"
             f"[/FONT][/SIZE]\n"
             f"[FONT=Times New Roman][SIZE=15px]от {position_fio}[/SIZE][/FONT]\n"
             f"[/RIGHT]\n"
@@ -309,7 +309,7 @@ class RaportApp(tk.Tk):
             f"{basis}[/SIZE][/FONT]\n"
             f"[RIGHT][/RIGHT]\n"
             f"[FONT=Times New Roman][SIZE=15px][FONT=Times New Roman][SIZE=15px]"
-            f"[B]Прошу руководство ГАИ: [/B]{request}"
+            f"[B]Прошу руководство ГУ МВД: [/B]{request}"
             f"[/SIZE][/FONT][/SIZE][/FONT]\n"
             f"[RIGHT][/RIGHT]\n"
             f"[FONT=Times New Roman][SIZE=15px][FONT=Times New Roman][SIZE=15px]"
